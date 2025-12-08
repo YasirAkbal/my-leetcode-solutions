@@ -24,7 +24,7 @@ This repository serves as a documentation of my coding journey and continuous le
 - Enhance SQL query optimization
 - Maintain consistent coding practice
 - Track progress over time
-- Preparing for coding interviews
+- Prepare for coding interviews
 
 ## 📝 Solution Format
 
