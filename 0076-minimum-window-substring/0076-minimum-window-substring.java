@@ -3,63 +3,48 @@ class Solution {
         int sLen = s.length(), tLen = t.length();
         if(sLen < tLen) return "";
         
-        int[] tTable = new int[52];
-        
-        for(int i = 0; i < tLen; i++) {
-            tTable[determineIndex(t.charAt(i))]++;
+        Map<Character, Integer> tMap = new HashMap<>();
+        Map<Character, Integer> windowMap = new HashMap<>();
+
+        for(Character c : t.toCharArray()) {
+            tMap.put(c, tMap.getOrDefault(c, 0) + 1);
         }
-        
-        int required = 0;
-        for (int freq : tTable) {
-            if (freq > 0) required++;
-        }
-        int formed = 0;
-        
-        String result = null;
-        int[] windowTable = new int[52];
+
+        int required = tMap.size();
+        int current = 0;
+
+        int resLeft = -1, resRight = -1;
+        int resLen = Integer.MAX_VALUE;
         int left = 0;
         for(int right = 0; right < sLen; right++) {
             Character c = s.charAt(right);
-            int index = determineIndex(c);
-            
-            if(tTable[index] > 0) {
-                windowTable[index]++;
-                if (windowTable[index] == tTable[index]) {
-                    formed++;
+            if(tMap.containsKey(c)) {
+                windowMap.put(c, windowMap.getOrDefault(c, 0) + 1);
+                if(tMap.get(c).equals(windowMap.get(c))) {
+                    current++;
                 }
             }
-            
-            while(formed == required) {
+
+            while(current == required) {
                 int windowSize = right - left + 1;
-                if (result == null || windowSize < result.length()) {
-                    result = s.substring(left, right + 1);
+                if(windowSize < resLen) {
+                    resLeft = left;
+                    resRight = right;
+                    resLen = windowSize;
                 }
-                
-                int leftIndex = determineIndex(s.charAt(left));
-                if (tTable[leftIndex] > 0) {
-                    windowTable[leftIndex]--;
-                    if (windowTable[leftIndex] < tTable[leftIndex]) {
-                        formed--;
+
+                char leftChar = s.charAt(left);
+                if(tMap.containsKey(leftChar)) {
+                    windowMap.put(leftChar, windowMap.get(leftChar) - 1);
+                    if(windowMap.get(leftChar) < tMap.get(leftChar)) {
+                        current--;
                     }
                 }
                 left++;
             }
         }
-        
-        
-        return result == null ? "" : result;
-    }
-    
-    
-    private int determineIndex(Character c) {
-        int index;
-        
-        if (c >= 'a' && c <= 'z') {
-            index = c - 'a'; // 0-25
-        } else {
-            index = c - 'A' + 26; // 26-51
-        }
-        
-        return index;
+
+        System.out.println(resLeft + "," + resRight);
+        return resLeft == -1 ? "" : s.substring(resLeft, resRight + 1); 
     }
 }
