@@ -2,17 +2,30 @@ class Solution {
     public int numSubarraysWithSum(int[] nums, int goal) {
         int n = nums.length;
         
-        Map<Integer, Integer> countMap = new HashMap<>();
-        countMap.put(0, 1);
         int result = 0;
-        
-        int sum = 0;
-        for(int num: nums) {
-            sum += num;
-            result += countMap.getOrDefault(sum - goal, 0);
-            countMap.put(sum, countMap.getOrDefault(sum, 0) + 1);
+        int prefixZeros = 0;
+        int prefixSum = 0;
+
+        int left = 0;
+        for(int right = 0; right < n; right++) {
+            prefixSum += nums[right];
+
+            while(left <= right && prefixSum > goal) { //validate window
+                prefixSum -= nums[left];
+                prefixZeros = 0;
+                left++;
+            }
+
+            while(left < right && nums[left] == 0 && prefixSum == goal) { //count prefix zeros
+                prefixZeros++;
+                left++;
+            }
+
+            if(prefixSum == goal) {
+                result += 1 + prefixZeros;
+            }
         }
-        
+
         return result;
     }
 }
