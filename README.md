@@ -60,3 +60,19 @@ If you'd like to discuss any solutions or connect, feel free to reach out!
 ⭐ If you find this repository helpful, consider giving it a star!
 
 **Happy Coding!** 💻
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0141-linked-list-cycle](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0141-linked-list-cycle](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0141-linked-list-cycle](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
+<!---LeetCode Topics End-->
