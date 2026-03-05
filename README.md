@@ -71,8 +71,18 @@ If you'd like to discuss any solutions or connect, feel free to reach out!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
+| [0143-reorder-list](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0143-reorder-list/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
+| [0143-reorder-list](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0143-reorder-list/) | Medium |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0143-reorder-list](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0143-reorder-list/) | Medium |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0143-reorder-list](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0143-reorder-list/) | Medium |
 <!---LeetCode Topics End-->
