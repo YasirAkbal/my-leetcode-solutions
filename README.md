@@ -72,11 +72,13 @@ If you'd like to discuss any solutions or connect, feel free to reach out!
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0143-reorder-list/) | Medium |
+| [1721-swapping-nodes-in-a-linked-list](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/1721-swapping-nodes-in-a-linked-list/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0143-reorder-list/) | Medium |
+| [1721-swapping-nodes-in-a-linked-list](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/1721-swapping-nodes-in-a-linked-list/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
