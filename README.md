@@ -76,6 +76,7 @@ If you'd like to discuss any solutions or connect, feel free to reach out!
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0125-valid-palindrome](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0125-valid-palindrome/) | Easy |
 | [0141-linked-list-cycle](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0143-reorder-list/) | Medium |
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/1721-swapping-nodes-in-a-linked-list/) | Medium |
@@ -87,4 +88,8 @@ If you'd like to discuss any solutions or connect, feel free to reach out!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0143-reorder-list](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0143-reorder-list/) | Medium |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0125-valid-palindrome](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0125-valid-palindrome/) | Easy |
 <!---LeetCode Topics End-->
