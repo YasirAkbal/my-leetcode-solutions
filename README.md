@@ -70,6 +70,7 @@ If you'd like to discuss any solutions or connect, feel free to reach out!
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0024-swap-nodes-in-pairs/) | Medium |
 | [0141-linked-list-cycle](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0143-reorder-list/) | Medium |
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/1721-swapping-nodes-in-a-linked-list/) | Medium |
@@ -87,6 +88,7 @@ If you'd like to discuss any solutions or connect, feel free to reach out!
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0024-swap-nodes-in-pairs/) | Medium |
 | [0143-reorder-list](https://github.com/YasirAkbal/my-leetcode-solutions/tree/main/0143-reorder-list/) | Medium |
 ## String
 | Problem Name | Difficulty |
